@@ -256,3 +256,44 @@
     height: 400px;
     margin: 74px;
 }
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    height: 940px;
+    margin-top: 74px;
+    margin-left: 80px;
+    padding: 0 32px 0 32px ;
+    gap: 64px;
+}
+
+.banco-Vagas {
+    width: 768px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+}
+
+.titulo-vaga {
+    width: 720px;
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+.informacoes {
+    width: 720px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: var(--text-color);
+}
