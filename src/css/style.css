@@ -396,7 +396,7 @@ nav {
     align-items: center;
     width: 1216px;
     height: 404px;
-    margin: 170px auto;
+    margin: 170px 78px;
     padding: 64px 0 0 0;
     gap: 32px;
     border-radius: 16px;
@@ -487,4 +487,128 @@ nav {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--text-color);
+}
+
+.formulario {
+    width: 1440px;
+    height: 430px;
+    padding: 96px 0 96px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.conteiner-Formulario {
+    width: 832px;
+    height: 182px;
+    padding: 0 32px 0 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+}
+
+.conteudo-Formulario {
+    width: 768px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.cabecalho-TextoSuport-Formulario {
+    width: 768px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cabecalho-TextoSuport-Formulario h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#101828;
+}
+
+.cabecalho-TextoSuport-Formulario p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-color);
+}
+
+.email {
+    width: 492px;
+    height: 48px;
+    display: flex;
+    gap: 16px;
+}
+
+#e-mail {
+    width: 360px;
+    height: 48px;
+    padding: 12px 14px 12px 14px;
+    display: flex;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-color);
+}
+
+.email button {
+    width: 116px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    display: flex;
+    gap: 8px;
+    background-color: #8E2424;
+
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-front;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.formulario footer {
+    width: 393px;
+    height: 24px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-front;
+    text-decoration-skip-ink: none;
+
+    color: #98A2B3;
 }
